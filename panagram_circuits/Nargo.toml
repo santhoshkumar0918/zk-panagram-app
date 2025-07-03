@@ -1,0 +1,6 @@
+[package]
+name = "panagram_circuits"
+type = "bin"
+authors = [""]
+
+[dependencies]
