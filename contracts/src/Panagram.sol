@@ -7,4 +7,9 @@ import {IVerifier} from "./Verifier.sol";
 contract panagram is ERC1155 {
     IVerifier public immutable verifier;
 
+   constructor(IVerifier _verifier) ERC1155("ipfs://QmcxEUp6MCy2GthBVHomcojs5jBABmr5U39v8XRWeHGKB5/{id}.json"){
+        verifier = _verifier;
+    }
+    
+   
 }
